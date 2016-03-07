@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  margin: 1.5em 20em;
+  text-align: center; }
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600; }
+
+/*# sourceMappingURL=main.css.map */
