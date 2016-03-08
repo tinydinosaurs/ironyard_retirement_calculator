@@ -1,12 +1,12 @@
-currentAge = prompt('What is your current age?')
+var currentAge = prompt('What is your current age?')
 
-retirementAge = prompt('At what age would you like to retire?')
+var retirementAge = prompt('At what age would you like to retire?')
 
-retirementTime = retirementAge - currentAge;
+var retirementTime = retirementAge - currentAge;
 
-today = new Date().getFullYear();
+var today = new Date().getFullYear();
 
-retirementYear = today + parseFloat(retirementTime);
+var retirementYear = today + parseFloat(retirementTime);
 
 document.write('<p>You have ' + retirementTime + ' years until you can retire.</p><p>It\'s ' + today + ', so you can retire in ' + retirementYear + '.')
 
